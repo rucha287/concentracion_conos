@@ -11,8 +11,8 @@ st.title("👁️ Simulador Dinámico: Concentración de Conos vs. Visión")
 st.write("Mueve la barra deslizante hacia la derecha para ir descubriendo y dibujando la curva de agudeza visual a medida que aumenta la densidad de receptores.")
 
 # 1. Datos reales de referencia anatómica (CONCENTRACIÓN)
-x_puntos_totales = np.array()
-y_puntos_totales = np.array()
+x_puntos_totales = np.array([5000, 15000, 40000, 80000, 150000])
+y_puntos_totales = np.array([5, 15, 40, 70, 100])
 zonas_totales = ["Periferia Lejana", "Periferia Media", "Mácula Externa", "Fóvea (Borde)", "Fóvea Central"]
 
 # Crear el modelo matemático de fondo (interpolación)
